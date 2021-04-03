@@ -1,0 +1,135 @@
+:root {
+    --blue-pantone: #3423A6;
+    --midnight-blue: #2E1760;
+    --space-cadet: #171738;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--space-cadet);
+}
+
+a.navbar-logo {
+    color: var(--blue-pantone) !important;
+}
+
+
+.navbar-nav {
+    .nav-link {
+        color: var(--space-cadet) !important;
+
+        &:hover {
+            color: var(--blue-pantone) !important;
+        }
+    }
+
+    .btn-gejala {
+        background-color: var(--blue-pantone);
+        color: #fff !important;
+        padding: 7px 10px 8px 10px !important;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: var(--midnight-blue);
+            color: #fff !important;
+        }
+    }
+
+    .btn-login {
+        background-color: #fff;
+        color: var(--blue-pantone) !important;
+        padding: 0px 10px 8px 10px;
+        border-radius: 8px;
+        margin-top: -2px;
+
+        &:hover {
+            background-color: rgb(100, 0, 0) !important;
+            color: #fff !important;
+        }
+    }
+}
+
+.header-left {
+    margin: 200px 0px 0px 0px;
+
+    h1 {
+        color: var(--blue-pantone);
+    }
+}
+
+.btn-diagnosa {
+    margin: 10px 0px;
+    color: #fff;
+    background-color: var(--blue-pantone);
+
+    &:hover {
+        color: var(--blue-pantone);
+        background: #fff;
+        border: 2px #3423A6 solid;
+    }
+}
+
+.header-right {
+    margin: 100px 0px;
+}
+
+.header-divider {
+    margin-top: -50px;
+}
+
+.covid-info {
+
+    background-color: var(--blue-pantone);
+    padding-bottom: 300px;
+
+    h2 {
+        color: #fff;
+    }
+}
+
+.urgent-info {
+    margin-top: -170px;
+
+    .card {
+        max-width: 200px;
+    }
+
+    img {
+        max-width: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+.hotline-info {
+    margin: 50px 0px 150px 0px;
+
+    h3 {
+        color: var(--midnight-blue) !important;
+    }
+
+
+}
+
+.footer-divider {
+    margin-top: -200px;
+}
+
+.footer-us {
+    padding: 20px 0px;
+
+    background-color: var(--blue-pantone);
+
+    a {
+
+        color: #fff;
+
+        &:hover {
+
+            color: #fff;
+        }
+    }
+}
+
+.expand-margin-bottom {
+    margin-bottom: 100px !important;
+}
